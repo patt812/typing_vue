@@ -1,0 +1,128 @@
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        margin: 0;
+        background: #142052;
+    }
+    
+    main {
+        font-family: Noto Sans CJK JP;
+        max-width: 390px;
+        padding: 0 30px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    
+    .logo__container {
+        width: fit-content;
+        margin: 51px auto 95px;
+        img {
+            width: 100%;
+            max-width: 153px;
+            max-height: 45px;
+        }
+    }
+    
+    .login {
+        background: white;
+        border-radius: 15px;
+        font-size: 1.4rem;
+         ::placeholder {
+            color: #D1D1D1;
+            font-size: 1.2rem;
+            line-height: 1.7rem;
+        }
+        & {
+            position: relative;
+            padding: 25px 21px 27px 22px;
+            box-shadow: 0px 3px 6px #00000029;
+            max-width: 330px;
+            margin: 0 auto 191px;
+        }
+        p {
+            color: #142052;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        input {
+            width: 100%;
+        }
+        &__title {
+            color: #333333 !important;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            letter-spacing: 0.08rem;
+            font-weight: 700;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        &__items {
+            padding-bottom: 10px;
+            line-height: 2.0rem;
+        }
+        &__inputs {
+            margin-bottom: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background: #F5F5F5;
+            border: 1px solid #F2F2F2;
+            border-radius: 5px;
+            text-indent: 1.3rem;
+        }
+        &__button {
+            margin: 20px auto 30px;
+            text-align: center;
+            width: fit-content;
+            display: block;
+            img {
+                margin: 0 auto;
+                max-width: 170px;
+            }
+            height: 45px;
+        }
+        .registerButton {
+            &__container {
+                box-shadow: 0px 3px 6px #00000029;
+                border: 2px solid #142052;
+                display: flex;
+                align-items: center;
+                max-height: 45px;
+                max-width: 230px;
+                margin: 0 auto;
+            }
+            &__text {
+                padding: 14px 15px 12px 33px;
+                font-weight: 700;
+                line-height: 19px;
+                letter-spacing: 0.065rem;
+                font-size: 1.3rem;
+            }
+            &__image {
+                max-width: 26px;
+                max-height: 26px;
+                margin-right: 15px;
+            }
+        }
+    }
+    
+    .artwork {
+        position: absolute;
+        z-index: -1;
+        bottom: -180px;
+        left: -90px;
+        max-width: 266px;
+        max-height: 310px;
+        width: 266px;
+        height: 310px;
+        background: #142052;
+    }
+    
+    p.validate__error {
+        color: #FF0000;
+        font-size: 1.0rem;
+        position: relative;
+        top: -20px;
+    }

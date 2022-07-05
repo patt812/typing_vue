@@ -1,0 +1,17 @@
+header {
+    margin: 0 auto;
+    background: #142052;
+    height: 60px;
+    img {
+        cursor: pointer;
+        display: inline;
+        margin: 17px 0 17px 24px;
+        width: 87px;
+        height: 26px;
+    }
+    .header__settingsLogo {
+        float: right;
+        width: 28px;
+        margin-right: 17px;
+    }
+}

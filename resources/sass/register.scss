@@ -1,0 +1,113 @@
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        margin: 0;
+        background: #142052;
+    }
+    
+    main {
+        font-family: Noto Sans CJK JP;
+        max-width: 390px;
+        padding: 0 30px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    
+    .logo__container {
+        width: fit-content;
+        margin: 51px auto 44px;
+        img {
+            width: 100%;
+            max-width: 153px;
+            max-height: 45px;
+        }
+    }
+    
+    .register {
+        background: white;
+        border-radius: 15px;
+        font-size: 1.4rem;
+         ::placeholder {
+            color: #D1D1D1;
+            font-size: 1.2rem;
+            line-height: 1.7rem;
+        }
+        & {
+            position: relative;
+            padding: 25px 21px 32px 22px;
+            box-shadow: 0px 3px 6px #00000029;
+            margin: 0 30px;
+            max-width: 330px;
+            margin: 0 auto;
+        }
+        p {
+            color: #142052;
+            line-height: 2.0rem;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        input {
+            width: 100%;
+        }
+        form>&__title {
+            color: #333333;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            letter-spacing: 0.08rem;
+            font-weight: 700;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        &__items {
+            padding-bottom: 10px;
+        }
+        &__inputs {
+            margin-bottom: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background: #F5F5F5;
+            border: 1px solid #F2F2F2;
+            border-radius: 5px;
+            text-indent: 1.3rem;
+        }
+        &__button {
+            cursor: pointer;
+            display: block;
+            justify-content: center;
+            background: #4EBCCE;
+            color: #FFFFFF;
+            box-shadow: 0px 3px 6px #00000029;
+            border-radius: 23px;
+            border: 0;
+            padding: 12px;
+            max-width: 170px;
+            width: 100%;
+            margin: 18px auto 0;
+            font-weight: 700;
+            font-size: 1.5rem;
+            letter-spacing: 0.075rem;
+            line-height: 2.1rem;
+        }
+    }
+    
+    .artwork {
+        position: absolute;
+        z-index: -1;
+        bottom: -129px;
+        left: -90px;
+        max-width: 266px;
+        max-height: 310px;
+        width: 266px;
+        height: 310px;
+        background: #142052;
+    }
+    
+    p.validate__error {
+        color: #FF0000;
+        font-size: 1.0rem;
+        position: relative;
+        top: -20px;
+    }

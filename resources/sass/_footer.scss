@@ -1,0 +1,14 @@
+footer {
+    margin: 0 auto;
+    background: #142052;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        cursor: pointer;
+        max-width: 87px;
+        max-height: 26px;
+    }
+}
